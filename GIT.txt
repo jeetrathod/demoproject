@@ -1,0 +1,38 @@
+created by Nayanboghani
+
+First download GIT from https://git-scm.com/download/win
+
+sign-in https://github.com/
+
+#Create New Respository
+
+1.give the name of your repository and click on create 
+
+#after create repository copy the command of -->push an existing repository from the command line
+
+git remote add origin https://github.com/nayanboghani/test.git
+
+Steps
+1. Copy Repo Commands as i mention above.
+2. Open CMD
+3. Goto folder path that u have to push into your git repository 
+
+	GIT Commands in cmd
+	1. git init
+	2. Copy first command and paste it into cmd
+	3. git add .
+	4. git config --global user.email "you@example.com"
+	5. git commit -m "Initial Commit"
+		#-m is flag
+		#'Initial Commit' is a message
+	6.git push -u origin master
+
+4.Done
+
+
+
+#for Pull request
+
+1.git pull origin master
+
+
